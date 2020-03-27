@@ -1,104 +1,104 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Stellar Theme"
+title = "Rancho 77"
 theme = "hugo-stellar-theme"
 
 googleAnalytics = "" #put your google-analytics ID here
 
 [params]
   [params.header]
-    title = "Stellar"
-    description = 'Just another free, fully responsive site template built by [@ajlkn](https://twitter.com/ajlkn) for <a href="https://html5up.net">HTML5 UP</a>. Ported to [hugo](https://gohugo.io) by [@AntonPolishko](https://github.com/antonpolishko)'
+    title = "Rancho 77"
+    description = 'Breve Descripción de rancho 77 (Se debe escoger la imagen que aparecera acá)'
     image = "images/logo.svg"
 
   [[params.navigation]]
-    name = "Introduction"
+    name = "Quienes Somos"
     href = "#intro"
 
   [[params.navigation]]
-    name = "First Section"
+    name = "Servicios"
     href = "#first"
 
   [[params.navigation]]
-    name = "Second Section"
+    name = "Restaurante y Cafeteria"
     href = "#second"
 
   [[params.navigation]]
-    name = "Get Started"
-    href = "#cta"
+    name = "Co-Breting"
+    href = "#cta"  
+
+[[params.navigation]]
+    name = "Eventos"
+    href = "#cta"  
 
   [params.intro]
-    title = "Ipsum sed adipiscing"
-    description = "Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam."
+    title = "Quienes Somos en Rancho 77"
+    description = "Breve descripción rancho 77 (Se debe cambiar la imagen de la derecha)"
     image = "images/pic01.jpg"
-    [[params.intro.action]]
-      buttontext = "Learn More"
-      href = "generic.html"
-
 
   [[params.section]]
     id = "first"
-    title = "Magna veroeros"
-    description = ""
+    title = "Nuestros Servicios"
+    description = "Breve descripción (general) de los servicios"
     
     # the picture is storead at static/images/
     [params.section.features]
       enable = true
       [[params.section.feature]]
-        title = "Ipsum consequat"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
-        icon = "fa-code"
+        title = "Restaurante y cafeteria"
+        description = "Sobre los servicios del restaurante"
+        icon = "fa-cutlery"
 
       [[params.section.feature]]
-        title = "Amed sed feugiat"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
-        icon = "fa-copy"
+        title = "Co-Breting"
+        description = "Sobre los servicios del Co-Breting"
+        icon = "fa-laptop"
 
       [[params.section.feature]]
-        title = "Dolor nullam"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
-        icon = "fa-diamond"
+        title = "Eventos"
+        description = "Sobre los eventos"
+        icon = "fa-calendar"
     [params.section.footer]
-      enable = true
+      enable = false
       [[params.section.footer.action]]
         buttontext = "Learn More"
         buttonUrl = "generic.html"
 
   [[params.section]]
     id = "second"
-    title = "Ipsum consequat"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+    title = "Restaurante y Cafeteria"
+    description = "Breve descripción del restaurante y la cafeteria"
 
     [params.section.statistics]
       enable = true
       [[params.section.statistic]]
-        icon = "fa-code-fork"
-        value = "5,120"
-        text = "Etiam"
+        icon = "fa-lemon-o"
+        value = "7-10"
+        text = "Desayunos"
       [[params.section.statistic]]
-        icon = "fa-folder-open-o"
-        value = "8,192"
-        text = "Magna"
+        icon = "fa-cutlery"
+        value = "11-3"
+        text = "Almuerzos"
       [[params.section.statistic]]
-        icon = "fa-signal"
-        value = "2,048"
-        text = "Tempus"
+        icon = "fa-coffee"
+        value = "2-5"
+        text = "Cafe de la tarde"
       [[params.section.statistic]]
-        icon = "fa-laptop"
-        value = "4,096"
-        text = "Aliquam"
+        icon = "fa-beer"
+        value = "2-5"
+        text = "Jugos"
       [[params.section.statistic]]
-        icon = "fa-diamond"
-        value = "1,024"
-        text = "Nullam"
+        icon = "fa-glass"
+        value = "6-10"
+        text = "Bebidas"
 
     [params.section.content]
       enable = true
-      text = "Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia."
+      text = "Descripcion de servicios de comida (Pueden ser varias columnas) ppppp slkasaks sklakslaks kslakslks skalsklaskla skallkslaks skalsklsklask klsaklsklas skalksla s kslakslaks klkslklklfkopf"
 
     [params.section.footer]
-      enable = true
+      enable = false
       [[params.section.footer.action]]
         buttontext = "Learn More"
         buttonUrl = "generic.html"
@@ -106,31 +106,27 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.section]]
     id = "cta"
-    title = "Congue imperdiet"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+    title = "Co-Breting"
+    description = "Breve descripcion del co breting"
     [params.section.footer]
-      enable = true
-      [[params.section.footer.action]]
-        buttontext = "Get Started"
-        buttonUrl = "generic.html"
-        customClass = "special"
+      enable = false
       [[params.section.footer.action]]
         buttontext = "Learn More"
         buttonUrl = "generic.html"
 
   [params.footer]
     enable = true
-    title = "Aliquam sed mauris"
-    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+    title = "Titulo"
+    description = "Pequeña Descripción que se quiere recalcar (se debe escoger las direcciones de las redes sociales)"
 
-    second_title = "Etiam feugiat"
-    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
-    phone = "(000) 000-0000 x 0000"
-    email = "information@untitled.tld"
+    second_title = "Contactenos"
+    address = "400 Oeste de Panasonic. San Rafael, Alajuela. CR"
+    phone = "+506-8884-1598"
+    email = "centroderecreosp@gmail.com "
 
-    [[params.footer.action]]
-      href = "generic.html"
-      buttontext = "Learn More"
+    #[[params.footer.action]]
+    #  href = "generic.html"
+    #  buttontext = "Learn More"
 
     # social icons
     [params.footer.social_list]
@@ -144,16 +140,11 @@ googleAnalytics = "" #put your google-analytics ID here
       [[params.footer.social]]
         title = "Facebook"
         icon = "fa-facebook"
-        link = "#"
+        link = "https://www.facebook.com/ranchosietesiete-102598337890997/"
 
       [[params.footer.social]]
         title = "Instagramm"
         icon = "fa-instagram"
-        link = "#"
-
-      [[params.footer.social]]
-        title = "Dribbble"
-        icon = "fa-dribbble"
         link = "#"
 
       [[params.footer.social]]
@@ -163,5 +154,5 @@ googleAnalytics = "" #put your google-analytics ID here
 
     # copyright
     [params.footer.copyright]
-      enable = true
+      enable = false
       text = "© Untitled, Design: [HTML5UP](//html5up.net)"
