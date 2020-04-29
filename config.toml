@@ -1,8 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://www.vektorcr.tk/"
 languageCode = "en-us"
 title = "Rancho 77"
-theme = "hugo-stellar-theme"
 
 googleAnalytics = "" #put your google-analytics ID here
 
